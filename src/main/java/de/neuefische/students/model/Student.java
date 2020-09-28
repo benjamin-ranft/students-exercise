@@ -37,4 +37,8 @@ public class Student {
     public String getName(String newName) {
         return name;
     }
+
+    public String toString (){
+        return name + " " + age + " " + goodStudent + " ";
+    }
 }

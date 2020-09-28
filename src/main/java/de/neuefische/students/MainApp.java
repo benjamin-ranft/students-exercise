@@ -11,7 +11,10 @@ public class MainApp {
 
         Student student2 = new Student("Heinz");
         //student2.setName("Patrick");
-        System.out.println(student2.getName());
+        //System.out.println(student2.getName());
+
+        System.out.println(student.toString());
+
     }
 
 }
